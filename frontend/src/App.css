@@ -1,0 +1,76 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #2F495E; /* Dark Blue */
+}
+
+.bio {
+  text-align: center;
+  color: #333; /* Dark Grey */
+  margin-bottom: 16px;
+}
+
+.messageInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #95A5A6; /* Grey */
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #409EFF; /* Blue */
+  color: white;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.transactionStatus {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.waveCard {
+  background-color: #ECF5FD; /* Light Blue */
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 5px;
+  transition: box-shadow 0.5s; /* Add transition effect */
+}
+
+.waveCard:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Add shadow on hover */
+}
+
+.waveCard:nth-child(5n) {
+  background-color: #C3E6CB; /* Green-ish for special transaction */
+}
+
+.waveCard .waveNumber {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.waveCard .waveMessage {
+  margin-bottom: 8px;
+}
