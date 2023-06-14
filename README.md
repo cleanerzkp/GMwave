@@ -1,0 +1,2 @@
+# GMwave
+#GM Waves is a blockchain-based app where users, connected via an Ethereum wallet like MetaMask, share uplifting morning messages with the community. The app keeps track of these "waves", provides real-time transaction status updates, enforces a cooldown period to prevent spamming, and allows users to load past waves to relive the shared positivity. It is a beacon of positivity, leveraging decentralization to inspire a bright start to the user's day.
